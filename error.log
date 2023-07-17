@@ -1,0 +1,266 @@
+mvn clean package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.example:myapi >--------------------------
+[INFO] Building My API 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ myapi ---
+[INFO] Deleting /Users/nithin/Desktop/code/demoUsers/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ myapi ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ myapi ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 14 source files to /Users/nithin/Desktop/code/demoUsers/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Permission.java:[1,2] cannot find symbol
+  symbol: class Entity
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/repository/RoleRepository.java:[2,41] cannot find symbol
+  symbol: class JpaRepository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/repository/RoleRepository.java:[1,2] cannot find symbol
+  symbol: class Repository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Role.java:[1,2] cannot find symbol
+  symbol: class Entity
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/User.java:[1,2] cannot find symbol
+  symbol: class Entity
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/repository/UserRepository.java:[2,41] cannot find symbol
+  symbol: class JpaRepository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/repository/UserRepository.java:[1,2] cannot find symbol
+  symbol: class Repository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[1,2] cannot find symbol
+  symbol: class RestController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[2,2] cannot find symbol
+  symbol: class RequestMapping
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[2,2] cannot find symbol
+  symbol: class Service
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[27,12] cannot find symbol
+  symbol:   class List
+  location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[29,12] cannot find symbol
+  symbol:   class List
+  location: class UserService
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/repository/PermissionRepository.java:[2,47] cannot find symbol
+  symbol: class JpaRepository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/repository/PermissionRepository.java:[1,2] cannot find symbol
+  symbol: class Repository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Permission.java:[3,6] cannot find symbol
+  symbol:   class Id
+  location: class Permission
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Permission.java:[4,6] cannot find symbol
+  symbol:   class GeneratedValue
+  location: class Permission
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Permission.java:[4,32] cannot find symbol
+  symbol:   variable GenerationType
+  location: class Permission
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Role.java:[3,6] cannot find symbol
+  symbol:   class Id
+  location: class Role
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Role.java:[4,6] cannot find symbol
+  symbol:   class GeneratedValue
+  location: class Role
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Role.java:[4,32] cannot find symbol
+  symbol:   variable GenerationType
+  location: class Role
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/User.java:[3,6] cannot find symbol
+  symbol:   class Id
+  location: class User
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/User.java:[4,6] cannot find symbol
+  symbol:   class GeneratedValue
+  location: class User
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/User.java:[4,32] cannot find symbol
+  symbol:   variable GenerationType
+  location: class User
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[6,6] cannot find symbol
+  symbol:   class Autowired
+  location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[12,26] cannot find symbol
+  symbol:   class RequestBody
+  location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[11,6] cannot find symbol
+  symbol:   class PostMapping
+  location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[17,29] cannot find symbol
+  symbol:   class PathVariable
+  location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[16,6] cannot find symbol
+  symbol:   class DeleteMapping
+  location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[22,30] cannot find symbol
+  symbol:   class PathVariable
+  location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[21,6] cannot find symbol
+  symbol:   class PutMapping
+  location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[26,6] cannot find symbol
+  symbol:   class GetMapping
+  location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[32,30] cannot find symbol
+  symbol:   class PathVariable
+  location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[31,6] cannot find symbol
+  symbol:   class GetMapping
+  location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[6,6] cannot find symbol
+  symbol:   class Autowired
+  location: class UserService
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[12,30] cannot find symbol
+  symbol:   method save(User)
+  location: variable userRepository of type UserRepository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[16,23] cannot find symbol
+  symbol:   method deleteById(java.lang.Long)
+  location: variable userRepository of type UserRepository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[20,9] cannot find symbol
+  symbol:   class Optional
+  location: class UserService
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[20,53] cannot find symbol
+  symbol:   method findById(java.lang.Long)
+  location: variable userRepository of type UserRepository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[23,17] cannot find symbol
+  symbol:   method setDisabled(boolean)
+  location: variable user of type User
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[24,34] cannot find symbol
+  symbol:   method save(User)
+  location: variable userRepository of type UserRepository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[30,30] cannot find symbol
+  symbol:   method findAll()
+  location: variable userRepository of type UserRepository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[34,30] cannot find symbol
+  symbol:   method findById(java.lang.Long)
+  location: variable userRepository of type UserRepository
+[INFO] 42 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.535 s
+[INFO] Finished at: 2023-07-13T16:23:27+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project myapi: Compilation failure: Compilation failure: 
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Permission.java:[1,2] cannot find symbol
+[ERROR]   symbol: class Entity
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/repository/RoleRepository.java:[2,41] cannot find symbol
+[ERROR]   symbol: class JpaRepository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/repository/RoleRepository.java:[1,2] cannot find symbol
+[ERROR]   symbol: class Repository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Role.java:[1,2] cannot find symbol
+[ERROR]   symbol: class Entity
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/User.java:[1,2] cannot find symbol
+[ERROR]   symbol: class Entity
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/repository/UserRepository.java:[2,41] cannot find symbol
+[ERROR]   symbol: class JpaRepository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/repository/UserRepository.java:[1,2] cannot find symbol
+[ERROR]   symbol: class Repository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[1,2] cannot find symbol
+[ERROR]   symbol: class RestController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[2,2] cannot find symbol
+[ERROR]   symbol: class RequestMapping
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[2,2] cannot find symbol
+[ERROR]   symbol: class Service
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[27,12] cannot find symbol
+[ERROR]   symbol:   class List
+[ERROR]   location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[29,12] cannot find symbol
+[ERROR]   symbol:   class List
+[ERROR]   location: class UserService
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/repository/PermissionRepository.java:[2,47] cannot find symbol
+[ERROR]   symbol: class JpaRepository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/repository/PermissionRepository.java:[1,2] cannot find symbol
+[ERROR]   symbol: class Repository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Permission.java:[3,6] cannot find symbol
+[ERROR]   symbol:   class Id
+[ERROR]   location: class Permission
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Permission.java:[4,6] cannot find symbol
+[ERROR]   symbol:   class GeneratedValue
+[ERROR]   location: class Permission
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Permission.java:[4,32] cannot find symbol
+[ERROR]   symbol:   variable GenerationType
+[ERROR]   location: class Permission
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Role.java:[3,6] cannot find symbol
+[ERROR]   symbol:   class Id
+[ERROR]   location: class Role
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Role.java:[4,6] cannot find symbol
+[ERROR]   symbol:   class GeneratedValue
+[ERROR]   location: class Role
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Role.java:[4,32] cannot find symbol
+[ERROR]   symbol:   variable GenerationType
+[ERROR]   location: class Role
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/User.java:[3,6] cannot find symbol
+[ERROR]   symbol:   class Id
+[ERROR]   location: class User
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/User.java:[4,6] cannot find symbol
+[ERROR]   symbol:   class GeneratedValue
+[ERROR]   location: class User
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/User.java:[4,32] cannot find symbol
+[ERROR]   symbol:   variable GenerationType
+[ERROR]   location: class User
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[6,6] cannot find symbol
+[ERROR]   symbol:   class Autowired
+[ERROR]   location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[12,26] cannot find symbol
+[ERROR]   symbol:   class RequestBody
+[ERROR]   location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[11,6] cannot find symbol
+[ERROR]   symbol:   class PostMapping
+[ERROR]   location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[17,29] cannot find symbol
+[ERROR]   symbol:   class PathVariable
+[ERROR]   location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[16,6] cannot find symbol
+[ERROR]   symbol:   class DeleteMapping
+[ERROR]   location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[22,30] cannot find symbol
+[ERROR]   symbol:   class PathVariable
+[ERROR]   location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[21,6] cannot find symbol
+[ERROR]   symbol:   class PutMapping
+[ERROR]   location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[26,6] cannot find symbol
+[ERROR]   symbol:   class GetMapping
+[ERROR]   location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[32,30] cannot find symbol
+[ERROR]   symbol:   class PathVariable
+[ERROR]   location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java:[31,6] cannot find symbol
+[ERROR]   symbol:   class GetMapping
+[ERROR]   location: class UserController
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[6,6] cannot find symbol
+[ERROR]   symbol:   class Autowired
+[ERROR]   location: class UserService
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[12,30] cannot find symbol
+[ERROR]   symbol:   method save(User)
+[ERROR]   location: variable userRepository of type UserRepository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[16,23] cannot find symbol
+[ERROR]   symbol:   method deleteById(java.lang.Long)
+[ERROR]   location: variable userRepository of type UserRepository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[20,9] cannot find symbol
+[ERROR]   symbol:   class Optional
+[ERROR]   location: class UserService
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[20,53] cannot find symbol
+[ERROR]   symbol:   method findById(java.lang.Long)
+[ERROR]   location: variable userRepository of type UserRepository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[23,17] cannot find symbol
+[ERROR]   symbol:   method setDisabled(boolean)
+[ERROR]   location: variable user of type User
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[24,34] cannot find symbol
+[ERROR]   symbol:   method save(User)
+[ERROR]   location: variable userRepository of type UserRepository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[30,30] cannot find symbol
+[ERROR]   symbol:   method findAll()
+[ERROR]   location: variable userRepository of type UserRepository
+[ERROR] /Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java:[34,30] cannot find symbol
+[ERROR]   symbol:   method findById(java.lang.Long)
+[ERROR]   location: variable userRepository of type UserRepository
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

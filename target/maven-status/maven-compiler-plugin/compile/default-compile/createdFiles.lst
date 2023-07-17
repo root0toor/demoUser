@@ -1,0 +1,13 @@
+com/nithin/demoUsers/model/Role.class
+com/nithin/demoUsers/repository/RoleRepository.class
+com/nithin/demoUsers/model/User.class
+com/nithin/demoUsers/service/PermissionService.class
+com/nithin/demoUsers/controller/UserController.class
+com/nithin/demoUsers/controller/RoleController.class
+com/nithin/demoUsers/service/RoleService.class
+com/nithin/demoUsers/controller/PermissionController.class
+com/nithin/demoUsers/repository/PermissionRepository.class
+com/nithin/demoUsers/repository/UserRepository.class
+com/nithin/demoUsers/service/UserService.class
+com/nithin/demoUsers/DemoUsersApplication.class
+com/nithin/demoUsers/model/Permission.class

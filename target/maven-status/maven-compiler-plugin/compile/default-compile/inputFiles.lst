@@ -1,0 +1,13 @@
+/Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/repository/RoleRepository.java
+/Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Permission.java
+/Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/User.java
+/Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/PermissionService.java
+/Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/repository/UserRepository.java
+/Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/model/Role.java
+/Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/UserController.java
+/Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/RoleService.java
+/Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/RoleController.java
+/Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/service/UserService.java
+/Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/repository/PermissionRepository.java
+/Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/controller/PermissionController.java
+/Users/nithin/Desktop/code/demoUsers/src/main/java/com/nithin/demoUsers/DemoUsersApplication.java
